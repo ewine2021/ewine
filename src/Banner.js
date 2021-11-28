@@ -1,12 +1,11 @@
 import React from "react";
 import "./Banner.css";
 import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
 import backgroundVideo from "./video/1.mp4";
 
 
 function Banner() {
-  const navigate = useNavigate();
+
 
 
   return (
