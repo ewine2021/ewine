@@ -1,0 +1,10 @@
+
+
+.wine_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;;
+    padding-bottom: 200px; 
+}
+
+

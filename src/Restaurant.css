@@ -1,0 +1,30 @@
+.restaurant > h2{
+    color: red;
+}
+
+.restaurant_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 {
+    margin-top: 30px;
+}
+
+.page1 > img {
+    display: block;
+    width: 100%;
+}
+
+.page2 > video {
+    display: block;
+    width: 100%;
+}
+.page3 > img {
+    display: block;
+    width: 100%;
+}
+.page4 > img {
+    display: block;
+    width: 100%;
+}

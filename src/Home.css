@@ -1,0 +1,12 @@
+ .home_section {
+    display: flex;
+    padding: 30px;
+ }
+
+ .home_section1 {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 120px; 
+ }
+

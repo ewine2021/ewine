@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+
+.header_center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.logo {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}

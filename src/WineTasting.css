@@ -1,0 +1,17 @@
+.taste_wrapper {
+    flex-direction: column;
+  }
+  .back > video {
+    object-fit: cover;
+    width: 100%;
+    height: 35vh;
+  }
+  
+  .taste_top {
+  padding: 10px 50px 20px;
+  }
+
+
+
+  
+  

@@ -1,0 +1,88 @@
+.about_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.top > video {
+  object-fit: cover;
+  width: 100%;
+  height: 30;
+}
+
+@media (min-width: 768px) {
+  .top > video {
+    object-fit: cover;
+    width: 100%;
+    height: 30;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top > video {
+    object-fit: cover;
+    width: 100%;
+    height: 30;
+  }
+}
+
+.top {
+  flex-grow: 2;
+}
+
+.middle1 {
+  flex-grow: 2;
+}
+.middle1 > img {
+  float: left;
+  width: 60%;
+  padding: 10px 30px 20px;
+}
+
+.middle1 > text {
+  float: right;
+  width: 30%;
+  padding: 0;
+  text-align: justify;
+  padding-top: 10vh;
+  padding-right: 4vw;
+}
+
+.middle2 > img {
+  float: right;
+  width: 60%;
+  padding: 10px 30px 20px;
+}
+
+.middle2 > h3 {
+  float: left;
+  width: 30%;
+  padding: 0;
+  text-align: justify;
+  padding-top: 10vh;
+  padding-left: 4vw;
+}
+
+.middle3 > img {
+    float: left;
+    width: 60%;
+    padding: 10px 30px 20px;
+  }
+  
+  .middle3 > h3 {
+    float: right;
+    width: 30%;
+    padding: 0;
+    text-align: justify;
+    padding-top: 10vh;
+    padding-right: 4vw;
+  }
+
+.middle4 > img {
+  object-fit: cover;
+  width: 100%;
+  height: 30;
+}
+
+.bottom {
+  flex-grow: 2;
+}
